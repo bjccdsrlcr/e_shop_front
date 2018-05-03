@@ -3,31 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="37e577df-ad70-4a6d-8c2b-02fc84d4b119" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" afterPath="$PROJECT_DIR$/checkout.html" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" afterPath="$PROJECT_DIR$/contacts.html" />
-      <change beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/faq.html" />
-      <change beforePath="$PROJECT_DIR$/feature-buttons.html" afterPath="$PROJECT_DIR$/feature-buttons.html" />
-      <change beforePath="$PROJECT_DIR$/feature-forms.html" afterPath="$PROJECT_DIR$/feature-forms.html" />
-      <change beforePath="$PROJECT_DIR$/feature-icons.html" afterPath="$PROJECT_DIR$/feature-icons.html" />
-      <change beforePath="$PROJECT_DIR$/feature-typography.html" afterPath="$PROJECT_DIR$/feature-typography.html" />
       <change beforePath="$PROJECT_DIR$/forgotton-password.html" afterPath="$PROJECT_DIR$/forgotton-password.html" />
-      <change beforePath="$PROJECT_DIR$/index-light-footer.html" afterPath="$PROJECT_DIR$/index-light-footer.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/item.html" afterPath="$PROJECT_DIR$/item.html" />
       <change beforePath="$PROJECT_DIR$/login-page.html" afterPath="$PROJECT_DIR$/login-page.html" />
-      <change beforePath="$PROJECT_DIR$/online_bidding.html" afterPath="$PROJECT_DIR$/online_bidding_null.html" />
-      <change beforePath="$PROJECT_DIR$/page-404.html" afterPath="$PROJECT_DIR$/page-404.html" />
-      <change beforePath="$PROJECT_DIR$/page-500.html" afterPath="$PROJECT_DIR$/page-500.html" />
-      <change beforePath="$PROJECT_DIR$/privacy-policy.html" afterPath="$PROJECT_DIR$/privacy-policy.html" />
-      <change beforePath="$PROJECT_DIR$/product-category.html" afterPath="$PROJECT_DIR$/product-category.html" />
-      <change beforePath="$PROJECT_DIR$/product-list.html" afterPath="$PROJECT_DIR$/online_bidding.html" />
-      <change beforePath="$PROJECT_DIR$/reg-page.html" afterPath="$PROJECT_DIR$/reg-page.html" />
-      <change beforePath="$PROJECT_DIR$/search-result.html" afterPath="$PROJECT_DIR$/search-result.html" />
-      <change beforePath="$PROJECT_DIR$/shopping-cart-null.html" afterPath="$PROJECT_DIR$/shopping-cart-null.html" />
-      <change beforePath="$PROJECT_DIR$/shopping-cart.html" afterPath="$PROJECT_DIR$/shopping-cart.html" />
-      <change beforePath="$PROJECT_DIR$/site-map.html" afterPath="$PROJECT_DIR$/site-map.html" />
-      <change beforePath="$PROJECT_DIR$/terms-conditions-page.html" afterPath="$PROJECT_DIR$/terms-conditions-page.html" />
+      <change beforePath="$PROJECT_DIR$/online_bidding.html" afterPath="$PROJECT_DIR$/online_bidding.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,13 +19,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5094">
-              <caret line="656" column="46" lean-forward="true" selection-start-line="656" selection-start-column="46" selection-end-line="656" selection-end-column="46" />
+            <state relative-caret-position="90">
+              <caret line="676" column="0" lean-forward="true" selection-start-line="676" selection-start-column="0" selection-end-line="760" selection-end-column="6" />
               <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -56,11 +37,38 @@
       <file leaf-file-name="online_bidding.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/online_bidding.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="237" column="23" lean-forward="false" selection-start-line="237" selection-start-column="23" selection-end-line="237" selection-end-column="23" />
+            <state relative-caret-position="252">
+              <caret line="254" column="94" lean-forward="false" selection-start-line="254" selection-start-column="94" selection-end-line="254" selection-end-column="94" />
               <folding>
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="259" column="24" lean-forward="false" selection-start-line="256" selection-start-column="18" selection-end-line="259" selection-end-column="24" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forgotton-password.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/forgotton-password.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="335" column="10" lean-forward="false" selection-start-line="335" selection-start-column="10" selection-end-line="335" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -81,7 +89,7 @@
       <file leaf-file-name="online_bidding_null.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/online_bidding_null.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2890">
+            <state relative-caret-position="17">
               <caret line="170" column="75" lean-forward="false" selection-start-line="170" selection-start-column="75" selection-end-line="170" selection-end-column="75" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -99,20 +107,6 @@
       </file>
       <file leaf-file-name="bg.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/temp/sliders/slide2/bg.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="title.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/temp/sliders/slide1/title.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="title.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/temp/sliders/slide2/title.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -143,7 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>col-md-9</find>
       <find>pre-header</find>
       <find>Zoom&lt;/a&gt;</find>
       <find>VIEW&lt;/a&gt;</find>
@@ -173,6 +166,7 @@
       <find>2014 © Metronic Shop UI. ALL Rights Reserved.</find>
       <find>Metronic Shop UI&lt;</find>
       <find>生长因子</find>
+      <find>查看</find>
     </findStrings>
     <replaceStrings>
       <replace>查看大图&lt;/a&gt;</replace>
@@ -197,6 +191,7 @@
       <replace>m_nacl.jpg</replace>
       <replace>2018 © bjccdsrlcr. ALL Rights Reserved.</replace>
       <replace>B2B锐界平台&lt;</replace>
+      <replace>&lt;a class=&quot;btn btn-danger&quot;&gt;查看&lt;/a&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -215,8 +210,10 @@
         <option value="$PROJECT_DIR$/checkout.html" />
         <option value="$PROJECT_DIR$/product-list.html" />
         <option value="$PROJECT_DIR$/online_bidding_null.html" />
-        <option value="$PROJECT_DIR$/online_bidding.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/online_bidding.html" />
+        <option value="$PROJECT_DIR$/login-page.html" />
+        <option value="$PROJECT_DIR$/forgotton-password.html" />
       </list>
     </option>
   </component>
@@ -347,12 +344,12 @@
       <workItem from="1524104095817" duration="284000" />
       <workItem from="1524730263358" duration="5945000" />
       <workItem from="1524904650127" duration="12902000" />
-      <workItem from="1525329159886" duration="300000" />
+      <workItem from="1525329159886" duration="3396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23955000" />
+    <option name="totallyTimeSpent" value="27051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -388,17 +385,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/online_bidding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9062">
-          <caret line="394" column="78" lean-forward="false" selection-start-line="394" selection-start-column="78" selection-end-line="394" selection-end-column="78" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/privacy-policy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8188">
@@ -418,7 +404,10 @@
         <state relative-caret-position="10120">
           <caret line="669" column="16" lean-forward="false" selection-start-line="669" selection-start-column="16" selection-end-line="761" selection-end-column="21" />
           <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -428,7 +417,6 @@
         <state relative-caret-position="9062">
           <caret line="394" column="78" lean-forward="true" selection-start-line="394" selection-start-column="78" selection-end-line="394" selection-end-column="78" />
           <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -501,13 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6088">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -682,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online_bidding_null.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
+        <state relative-caret-position="17">
           <caret line="170" column="75" lean-forward="false" selection-start-line="170" selection-start-column="75" selection-end-line="170" selection-end-column="75" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -692,21 +673,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online_bidding.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="237" column="23" lean-forward="false" selection-start-line="237" selection-start-column="23" selection-end-line="237" selection-end-column="23" />
+        <state relative-caret-position="252">
+          <caret line="254" column="94" lean-forward="false" selection-start-line="254" selection-start-column="94" selection-end-line="254" selection-end-column="94" />
           <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="259" column="24" lean-forward="false" selection-start-line="256" selection-start-column="18" selection-end-line="259" selection-end-column="24" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5094">
-          <caret line="656" column="46" lean-forward="true" selection-start-line="656" selection-start-column="46" selection-end-line="656" selection-end-column="46" />
+        <state relative-caret-position="90">
+          <caret line="676" column="0" lean-forward="true" selection-start-line="676" selection-start-column="0" selection-end-line="760" selection-end-column="6" />
           <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forgotton-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="335" column="10" lean-forward="false" selection-start-line="335" selection-start-column="10" selection-end-line="335" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
