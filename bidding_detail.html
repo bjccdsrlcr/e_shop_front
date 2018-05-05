@@ -9,9 +9,12 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
 -->
 
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
 
 <!-- Head BEGIN -->
 <head>
@@ -36,8 +39,8 @@ License: You must have a valid license purchased only from themeforest(the above
     <link href="/favicon.ico" rel="SHORTCUT ICON" type="image/ico">
 
     <!-- Fonts START -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=all" rel="stylesheet" type="text/css">
+    <!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">-->
+    <!--<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=all" rel="stylesheet" type="text/css">-->
     <!-- Fonts END -->
 
     <!-- Global styles START -->
@@ -47,7 +50,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
     <!-- Page level plugin styles START -->
     <link href="assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"><!-- for slider-range -->
+    <!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">-->
+    <!-- for slider-range -->
     <link href="assets/plugins/bxslider/jquery.bxslider.css" rel="stylesheet">
     <link href="assets/plugins/rateit/src/rateit.css" rel="stylesheet" type="text/css">
     <link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
@@ -58,6 +62,14 @@ License: You must have a valid license purchased only from themeforest(the above
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css">
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+    <style>
+        .main .container form input{
+            border: none;
+        }
+        .main .container table th{
+            background-color: rgb(214,254,254);
+        }
+    </style>
     <!-- Theme styles END -->
 </head>
 <!-- Head END -->
@@ -206,225 +218,162 @@ License: You must have a valid license purchased only from themeforest(the above
 </div>
 <!-- END HEADER -->
 
-<div class="title-wrapper">
-    <div class="container"><div class="container-inner">
-        <h1><span>MEN</span> CATEGORY</h1>
-        <em>Over 4000 Items are available here</em>
-    </div></div>
-</div>
 
 <div class="main">
-    <div class="container">
-        <ul class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="">Store</a></li>
-            <li class="active">Men category</li>
-        </ul>
-        <!-- BEGIN SIDEBAR & CONTENT -->
-        <!--主区域-->
-        <div class="row margin-bottom-40 ">
-            <!-- BEGIN SIDEBAR -->
-            <div class="sidebar col-md-3 col-sm-4">
-                <ul class="list-group margin-bottom-25 sidebar-menu">
-                    <li class="list-group-item clearfix"><a href="online_bidding.html"><i class="fa fa-angle-right"></i> Ladies</a></li>
-                    <li class="list-group-item clearfix dropdown">
-                        <a href="javascript:void(0);">
-                            <i class="fa fa-angle-right"></i>
-                            Mens
-                            <i class="fa fa-angle-down"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="list-group-item dropdown clearfix">
-                                <a href="javascript:void(0);"><i class="fa fa-circle"></i> Shoes <i class="fa fa-angle-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="list-group-item dropdown clearfix">
-                                        <a href="javascript:void(0);"><i class="fa fa-circle"></i> Classic <i class="fa fa-angle-down"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="online_bidding.html"><i class="fa fa-circle"></i> Classic 1</a></li>
-                                            <li><a href="online_bidding.html"><i class="fa fa-circle"></i> Classic 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item dropdown clearfix">
-                                        <a href="javascript:void(0);"><i class="fa fa-circle"></i> Sport  <i class="fa fa-angle-down"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="online_bidding.html"><i class="fa fa-circle"></i> Sport 1</a></li>
-                                            <li><a href="online_bidding.html"><i class="fa fa-circle"></i> Sport 2</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="online_bidding.html"><i class="fa fa-circle"></i> Trainers</a></li>
-                            <li><a href="online_bidding.html"><i class="fa fa-circle"></i> Jeans</a></li>
-                            <li><a href="online_bidding.html"><i class="fa fa-circle"></i> Chinos</a></li>
-                            <li><a href="online_bidding.html"><i class="fa fa-circle"></i> T-Shirts</a></li>
-                        </ul>
-                    </li>
-                    <li class="list-group-item clearfix"><a href="online_bidding.html"><i class="fa fa-angle-right"></i> Kids</a></li>
-                    <li class="list-group-item clearfix"><a href="online_bidding.html"><i class="fa fa-angle-right"></i> Accessories</a></li>
-                    <li class="list-group-item clearfix"><a href="online_bidding.html"><i class="fa fa-angle-right"></i> Sports</a></li>
-                    <li class="list-group-item clearfix"><a href="online_bidding.html"><i class="fa fa-angle-right"></i> Brands</a></li>
-                    <li class="list-group-item clearfix"><a href="online_bidding.html"><i class="fa fa-angle-right"></i> Electronics</a></li>
-                    <li class="list-group-item clearfix"><a href="online_bidding.html"><i class="fa fa-angle-right"></i> Home & Garden</a></li>
-                    <li class="list-group-item clearfix"><a href="online_bidding.html"><i class="fa fa-angle-right"></i> Custom Link</a></li>
-                </ul>
-            </div>
-            <!-- END SIDEBAR -->
-            <!-- BEGIN CONTENT -->
-            <div class="col-md-9 col-sm-8">
-                <h2>Three items</h2>
-                <div class="bxslider-wrapper">
-                    <ul class="bxslider" data-slides-phone="1" data-slides-tablet="2" data-slides-desktop="3" data-slide-margin="15">
-                        <li>
-                            <div class="product-item">
-                                <div class="pi-img-wrapper">
-                                    <img src="assets/temp/products/k_nacl.jpg" class="img-responsive" alt="25% 氯化钠">
-                                    <div>
-                                        <a href="assets/temp/products/k_nacl.jpg" class="btn btn-default fancybox-button">查看大图</a>
-                                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">详情</a>
-                                    </div>
-                                </div>
-                                <h3><a href="item.html">25% 氯化钠</a></h3>
-                                <div class="pi-price">$29.00</div>
-                                <a href="#" class="btn btn-default add2cart">加至购物车</a>
-                                <div class="sticker sticker-new"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="product-item">
-                                <div class="pi-img-wrapper">
-                                    <img src="assets/temp/products/k_mircoscope.jpg" class="img-responsive" alt="25% 氯化钠">
-                                    <div>
-                                        <a href="assets/temp/products/k_mircoscope.jpg" class="btn btn-default fancybox-button">查看大图</a>
-                                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">详情</a>
-                                    </div>
-                                </div>
-                                <h3><a href="item.html">显微镜</a></h3>
-                                <div class="pi-price">$29.00</div>
-                                <a href="#" class="btn btn-default add2cart">加至购物车</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="product-item">
-                                <div class="pi-img-wrapper">
-                                    <img src="assets/temp/products/k_device.jpg" class="img-responsive" alt="25% 氯化钠">
-                                    <div>
-                                        <a href="assets/temp/products/k_device.jpg" class="btn btn-default fancybox-button">查看大图</a>
-                                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">详情</a>
-                                    </div>
-                                </div>
-                                <h3><a href="item.html">过氧化氢</a></h3>
-                                <div class="pi-price">$29.00</div>
-                                <a href="#" class="btn btn-default add2cart">加至购物车</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="product-item">
-                                <div class="pi-img-wrapper">
-                                    <img src="assets/temp/products/k_loudou.jpg" class="img-responsive" alt="25% 氯化钠">
-                                    <div>
-                                        <a href="assets/temp/products/k_loudou.jpg" class="btn btn-default fancybox-button">查看大图</a>
-                                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">详情</a>
-                                    </div>
-                                </div>
-                                <h3><a href="item.html">培养基</a></h3>
-                                <div class="pi-price">$29.00</div>
-                                <a href="#" class="btn btn-default add2cart">加至购物车</a>
-                                <div class="sticker sticker-sale"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="product-item">
-                                <div class="pi-img-wrapper">
-                                    <img src="assets/temp/products/k_nacl.jpg" class="img-responsive" alt="25% 氯化钠">
-                                    <div>
-                                        <a href="assets/temp/products/k_nacl.jpg" class="btn btn-default fancybox-button">查看大图</a>
-                                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">详情</a>
-                                    </div>
-                                </div>
-                                <h3><a href="item.html">细胞</a></h3>
-                                <div class="pi-price">$29.00</div>
-                                <a href="#" class="btn btn-default add2cart">加至购物车</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="product-item">
-                                <div class="pi-img-wrapper">
-                                    <img src="assets/temp/products/k_mircoscope.jpg" class="img-responsive" alt="25% 氯化钠">
-                                    <div>
-                                        <a href="assets/temp/products/k_mircoscope.jpg" class="btn btn-default fancybox-button">查看大图</a>
-                                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">详情</a>
-                                    </div>
-                                </div>
-                                <h3><a href="item.html">Berry Lace Dress6</a></h3>
-                                <div class="pi-price">$29.00</div>
-                                <a href="#" class="btn btn-default add2cart">加至购物车</a>
-                            </div>
-                        </li>
-                    </ul>
+    <div class="container" style="border: 0.5px solid gray; padding: 50px 10px">
+        <form class="form-horizontal" role="form" style="border: 0.5px solid darkgray;">
+            <h3 style="background: gainsboro;padding: 1%;color: rgb(236, 96, 42);">广州市环境检测中心 - 标准品竞价单</h3>
+            <h6 style="padding-left: 2%; color: rgb(236, 96, 42);">1.基本信息</h6>
+
+
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="title">
+                    标题
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="title" value="标准品">
                 </div>
             </div>
-            <!-- END CONTENT -->
-        </div>
-        <!-- END SIDEBAR & CONTENT -->
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="category">
+                    项目类别
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="category" value="试剂耗材">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="currency">
+                    使用币种
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="currency" value="人民币">
+                </div>
+            </div>
+
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="deadline">
+                    截止时间
+                </label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="deadline" value="2017-12-30">
+                </div>
+                <div class="col-sm-5">
+                    <span>剩余14天10：12：40秒</span><a class="btn btn-info" href="bidding_result.html">我要报价</a>
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="bidding_method">
+                    竞价方式
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="bidding_method" value="公开竞价">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="comparing_method">
+                    比价方式
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="comparing_method" value="密封比价">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="win_law">
+                    中标原则
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="win_law" value="总价最低优先">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="purchase_type">
+                    采购类型
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="purchase_type" value="采购类型">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="trading_method">
+                    交易方式
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="trading_method" value="开票一个月后">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="expecting_date">
+                    期望收货日期
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="expecting_date" value="2018-01-05">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="receipt">
+                    发票要求
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="receipt" value="增值税普通发票">
+                </div>
+            </div>
+            <h6 style="padding-left: 2%; color: rgb(236, 96, 42);">2.补充说明</h6>
+            <article>
+                <p style="padding-left: 5%">。。。。</p>
+            </article>
+            <h6 style="padding-left: 2%; color: rgb(236, 96, 42);">3.竞价商品</h6>
+            <div class="form-group has-success">
+                <label class="col-sm-2 control-label" for="file">
+                    商品详细要求
+                </label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control" id="file" value="商品详细要求">
+                </div>
+            </div>
+            <div>
+                <table class="table">
+                    <tr>
+                        <th>单号</th>
+                        <th>商品名称</th>
+                        <th>货号</th>
+                        <th>品牌</th>
+                        <th>数量</th>
+                        <th>单位</th>
+                        <th>规格</th>
+                        <th>产品描述</th>
+                        <th>备注</th>
+                    </tr>
+                    <tr>
+                        <td>00988</td>
+                        <td>DNA提取试剂盒</td>
+                        <td>12888-50</td>
+                        <td>Mobio</td>
+                        <td>1</td>
+                        <td>盒</td>
+                        <td>50t</td>
+                        <td>产品描述</td>
+                        <td>备注</td>
+                    </tr>
+
+                    <tr>
+                        <td>00988</td>
+                        <td>DNA提取试剂盒</td>
+                        <td>12888-50</td>
+                        <td>Mobio</td>
+                        <td>1</td>
+                        <td>盒</td>
+                        <td>50t</td>
+                        <td>产品描述</td>
+                        <td>备注========</td>
+                    </tr>
+
+                </table>
+            </div>
+        </form>
     </div>
 </div>
 
-<!-- BEGIN BRANDS -->
-<div class="brands">
-    <div class="container">
-        <div class="row">
-            <div class="bxslider-wrapper">
-                <ul class="bxslider" data-slides-phone="1" data-slides-tablet="3" data-slides-desktop="6" data-slide-margin="15">
-                    <li><a href="#"><img src="assets/temp/brands/canon.jpg" alt="canon" title="canon"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/esprit.jpg" alt="esprit" title="esprit"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/gap.jpg" alt="gap" title="gap"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/next.jpg" alt="next" title="next"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/puma.jpg" alt="puma" title="puma"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/zara.jpg" alt="zara" title="zara"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/canon.jpg" alt="canon" title="canon"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/esprit.jpg" alt="esprit" title="esprit"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/gap.jpg" alt="gap" title="gap"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/next.jpg" alt="next" title="next"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/puma.jpg" alt="puma" title="puma"></a></li>
-                    <li><a href="#"><img src="assets/temp/brands/zara.jpg" alt="zara" title="zara"></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END BRANDS -->
-
-<!-- BEGIN STEPS -->
-<div class="steps3 steps3red">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 steps3-col">
-                <i class="fa fa-truck"></i>
-                <div>
-                    <h2>Free shipping</h2>
-                    <em>Express delivery withing 3 days</em>
-                </div>
-                <span>&nbsp;</span>
-            </div>
-            <div class="col-md-4 steps3-col">
-                <i class="fa fa-gift"></i>
-                <div>
-                    <h2>Daily Gifts</h2>
-                    <em>3 Gifts daily for lucky customers</em>
-                </div>
-                <span>&nbsp;</span>
-            </div>
-            <div class="col-md-4 steps3-col">
-                <i class="fa fa-phone"></i>
-                <div>
-                    <h2>477 505 8877</h2>
-                    <em>24/7 customer care available</em>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END STEPS -->
 
 <!-- BEGIN PRE-FOOTER -->
 <div class="pre-footer">
@@ -526,9 +475,12 @@ License: You must have a valid license purchased only from themeforest(the above
             <!-- BEGIN PAYMENTS -->
             <div class="col-md-6 col-sm-6">
                 <ul class="list-unstyled list-inline pull-right margin-bottom-15">
-                    <li><img src="assets/img/payments/western-union.jpg" alt="We accept Western Union" title="We accept Western Union"></li>
-                    <li><img src="assets/img/payments/american-express.jpg" alt="We accept American Express" title="We accept American Express"></li>
-                    <li><img src="assets/img/payments/MasterCard.jpg" alt="We accept MasterCard" title="We accept MasterCard"></li>
+                    <li><img src="assets/img/payments/western-union.jpg" alt="We accept Western Union"
+                             title="We accept Western Union"></li>
+                    <li><img src="assets/img/payments/american-express.jpg" alt="We accept American Express"
+                             title="We accept American Express"></li>
+                    <li><img src="assets/img/payments/MasterCard.jpg" alt="We accept MasterCard"
+                             title="We accept MasterCard"></li>
                     <li><img src="assets/img/payments/PayPal.jpg" alt="We accept PayPal" title="We accept PayPal"></li>
                     <li><img src="assets/img/payments/visa.jpg" alt="We accept Visa" title="We accept Visa"></li>
                 </ul>
@@ -545,7 +497,8 @@ License: You must have a valid license purchased only from themeforest(the above
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-3">
                 <div class="product-main-image">
-                    <img src="assets/temp/products/m_loudou.jpg" alt="Cool green dress with red bell" class="img-responsive">
+                    <img src="assets/temp/products/m_loudou.jpg" alt="Cool green dress with red bell"
+                         class="img-responsive">
                 </div>
                 <div class="product-other-images">
                     <a href="#" class="active"><img alt="25% 氯化钠" src="assets/temp/products/m_nacl.jpg"></a>
@@ -565,7 +518,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     </div>
                 </div>
                 <div class="description">
-                    <p>Lorem ipsum dolor ut sit ame dolore  adipiscing elit, sed nonumy nibh sed euismod laoreet dolore magna aliquarm erat volutpat
+                    <p>Lorem ipsum dolor ut sit ame dolore adipiscing elit, sed nonumy nibh sed euismod laoreet dolore
+                        magna aliquarm erat volutpat
                         Nostrud duis molestie at dolore.</p>
                 </div>
                 <div class="product-page-options">
@@ -588,7 +542,8 @@ License: You must have a valid license purchased only from themeforest(the above
                 </div>
                 <div class="product-page-cart">
                     <div class="product-quantity">
-                        <input id="product-quantity" type="text" value="1" readonly name="product-quantity" class="form-control input-sm">
+                        <input id="product-quantity" type="text" value="1" readonly name="product-quantity"
+                               class="form-control input-sm">
                     </div>
                     <button class="btn btn-primary" type="submit">加至购物车</button>
                     <button class="btn btn-default" type="submit">More details</button>
@@ -615,15 +570,17 @@ License: You must have a valid license purchased only from themeforest(the above
 
 <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="assets/plugins/bxslider/jquery.bxslider.min.js"></script><!-- slider for products -->
+<script type="text/javascript" src="assets/plugins/bxslider/jquery.bxslider.min.js"></script>
+<!-- slider for products -->
 <script src="assets/plugins/rateit/src/jquery.rateit.js" type="text/javascript"></script>
 <script type="text/javascript" src='assets/plugins/zoom/jquery.zoom.min.js'></script><!-- product zoom -->
-<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script><!-- for slider-range -->
-<script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script>
-<script src="assets/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript"></script><!-- Quantity -->
+<!--<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>&lt;!&ndash; for slider-range &ndash;&gt;-->
+<script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript"></script>
+<!-- Quantity -->
 <script type="text/javascript" src="assets/scripts/app.js"></script>
 <script type="text/javascript">
-    jQuery(document).ready(function() {
+    jQuery(document).ready(function () {
         App.init();
         App.initBxSlider();
         App.initImageZoom();
