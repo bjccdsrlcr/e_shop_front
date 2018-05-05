@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37e577df-ad70-4a6d-8c2b-02fc84d4b119" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bidding_detail.html" afterPath="$PROJECT_DIR$/bidding_detail.html" />
-      <change beforePath="$PROJECT_DIR$/bidding_result.html" afterPath="$PROJECT_DIR$/bidding_result.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bidding_result.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bidding_result.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bidding_result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="332" column="18" lean-forward="true" selection-start-line="332" selection-start-column="18" selection-end-line="332" selection-end-column="18" />
+            <state relative-caret-position="430">
+              <caret line="330" column="34" lean-forward="true" selection-start-line="330" selection-start-column="34" selection-end-line="330" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -52,6 +51,16 @@
                 <element signature="n#style#0;n#p#0;n#article#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h6#2;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,6 +132,7 @@
       <replace>B2B锐界平台&lt;</replace>
       <replace>&lt;a class=&quot;btn btn-danger&quot;&gt;查看&lt;/a&gt;</replace>
       <replace>readonly=&quot;readonly&quot;</replace>
+      <replace>&lt;input type=&quot;text&quot; readonly=&quot;readonly&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -147,6 +157,7 @@
         <option value="$PROJECT_DIR$/online_bidding.html" />
         <option value="$PROJECT_DIR$/bidding_detail.html" />
         <option value="$PROJECT_DIR$/bidding_result.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -183,11 +194,6 @@
             <path>
               <item name="e_shop_template" type="b2602c69:ProjectViewProjectNode" />
               <item name="e_shop_template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e_shop_template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e_shop_template" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,12 +276,12 @@
       <workItem from="1524904650127" duration="12902000" />
       <workItem from="1525329159886" duration="3668000" />
       <workItem from="1525489118487" duration="4878000" />
-      <workItem from="1525519709984" duration="296000" />
+      <workItem from="1525519709984" duration="412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32497000" />
+    <option name="totallyTimeSpent" value="32613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -311,22 +317,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10120">
-          <caret line="669" column="16" lean-forward="false" selection-start-line="669" selection-start-column="16" selection-end-line="761" selection-end-column="21" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/online_bidding.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9062">
@@ -656,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bidding_result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="332" column="18" lean-forward="true" selection-start-line="332" selection-start-column="18" selection-end-line="332" selection-end-column="18" />
+        <state relative-caret-position="430">
+          <caret line="330" column="34" lean-forward="true" selection-start-line="330" selection-start-column="34" selection-end-line="330" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -668,6 +658,14 @@
             <element signature="n#style#0;n#p#0;n#article#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h6#2;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
